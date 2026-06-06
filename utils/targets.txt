@@ -1,0 +1,95 @@
+# targets.txt - endpoint list for zapret.ps1 tests
+#
+# Format:
+#   KeyName = "https://host..."   -> Runs HTTP/TLS checks + ping
+#   KeyName = "PING:1.2.3.4"       -> Ping only
+#
+# Keys must be a single word (letters/digits/underscore), because the
+# script parses them as simple identifiers. You can add or remove lines.
+
+### Discord
+DiscordMain           = "https://discord.com"
+DiscordGateway        = "https://gateway.discord.gg"
+DiscordCDN            = "https://cdn.discordapp.com"
+DiscordUpdates        = "https://updates.discord.com"
+
+### YouTube
+YouTubeWeb            = "https://www.youtube.com"
+YouTubeShort          = "https://youtu.be"
+YouTubeImage          = "https://i.ytimg.com"
+YouTubeVideoRedirect  = "https://redirector.googlevideo.com"
+
+### Google
+GoogleMain            = "https://www.google.com"
+GoogleGstatic         = "https://www.gstatic.com"
+
+### Cloudflare
+CloudflareWeb         = "https://www.cloudflare.com"
+CloudflareCDN         = "https://cdnjs.cloudflare.com"
+
+### Public DNS (PING-only)
+CloudflareDNS1111     = "PING:1.1.1.1"
+CloudflareDNS1001     = "PING:1.0.0.1"
+GoogleDNS8888         = "PING:8.8.8.8"
+GoogleDNS8844         = "PING:8.8.4.4"
+Quad9DNS9999          = "PING:9.9.9.9"
+ROBLOX                       = "https://roblox.com"
+ROBLOX_WWW                   = "https://www.roblox.com"
+ROBLOX_AUTH                  = "https://auth.roblox.com"
+ROBLOX_ACCOUNT_SETTINGS      = "https://accountsettings.roblox.com"
+ROBLOX_WEB                   = "https://web.roblox.com"
+ROBLOX_STATUS                = "https://status.roblox.com"
+ROBLOX_DEVFORUM              = "https://devforum.roblox.com"
+ROBLOX_WIKI                  = "https://wiki.roblox.com"
+ROBLOX_API                   = "https://api.roblox.com"
+ROBLOX_APIS                  = "https://apis.roblox.com"
+ROBLOX_GAMES_API             = "https://games.roblox.com"
+ROBLOX_USERS_API             = "https://users.roblox.com"
+ROBLOX_FRIENDS_API           = "https://friends.roblox.com"
+ROBLOX_GROUPS_API            = "https://groups.roblox.com"
+ROBLOX_CATALOG_API           = "https://catalog.roblox.com"
+ROBLOX_AVATAR_API            = "https://avatar.roblox.com"
+ROBLOX_ECONOMY_API           = "https://economy.roblox.com"
+ROBLOX_INVENTORY_API         = "https://inventory.roblox.com"
+ROBLOX_PRESENCE_API          = "https://presence.roblox.com"
+ROBLOX_NOTIFICATIONS_API     = "https://notifications.roblox.com"
+ROBLOX_CHAT_API              = "https://chat.roblox.com"
+ROBLOX_VOICE_API             = "https://voice.roblox.com"
+ROBLOX_DEVELOP_API           = "https://develop.roblox.com"
+ROBLOX_PUBLISH_API           = "https://publish.roblox.com"
+ROBLOX_THUMBNAILS_API        = "https://thumbnails.roblox.com"
+ROBLOX_SEARCH_API            = "https://search.roblox.com"
+ROBLOX_GAMEJOIN_API          = "https://gamejoin.roblox.com"
+ROBLOX_MATCHMAKING_API       = "https://matchmaking.roblox.com"
+ROBLOX_GAMEPERSISTENCE_API   = "https://gamepersistence.roblox.com"
+ROBLOX_PREMIUMFEATURES_API   = "https://premiumfeatures.roblox.com"
+ROBLOX_BILLING_API           = "https://billing.roblox.com"
+ROBLOX_TRADES_API            = "https://trades.roblox.com"
+ROBLOX_TRANSLATIONS_API      = "https://translations.roblox.com"
+ROBLOX_LOCALE_API            = "https://locale.roblox.com"
+ROBLOX_CAPTCHA_API           = "https://captcha.roblox.com"
+ROBLOX_GRAPHQL_API           = "https://graphql.roblox.com"
+ROBLOX_CLIENTSETTINGS_API    = "https://clientsettings.api.roblox.com"
+ROBLOX_CDN                   = "https://rbxcdn.com"
+ROBLOX_SETUP_CDN             = "https://setup.rbxcdn.com"
+ROBLOX_API_CDN               = "https://api.rbxcdn.com"
+ROBLOX_ASSET_DELIVERY        = "https://assetdelivery.roblox.com"
+ROBLOX_CONTENT_DELIVERY      = "https://contentdelivery.roblox.com"
+ROBLOX_CLIENTSETTINGS_CDN    = "https://clientsettingscdn.roblox.com"
+ROBLOX_ECONOMY_CDN           = "https://economycdn.roblox.com"
+ROBLOX_SETUP                 = "https://setup.roblox.com"
+ROBLOX_UPDATE                = "https://update.roblox.com"
+ROBLOX_TELEMETRY             = "https://telemetry.roblox.com"
+ROBLOX_CLIENT_TELEMETRY      = "https://client-telemetry.roblox.com"
+ROBLOX_METRICS               = "https://metrics.roblox.com"
+ROBLOX_GAME_ANALYTICS        = "https://gameanalytics.roblox.com"
+ROBLOX_ECS                   = "https://ecs.roblox.com"
+ROBLOX_AB_TESTING            = "https://abtesting.roblox.com"
+ROBLOX_EPHEMERAL_COUNTERS    = "https://ephemeralcounters.api.roblox.com"
+ROBLOX_STUDIO                = "https://studio.roblox.com"
+ROBLOX_CLIENT                = "https://client.roblox.com"
+ROBLOX_VERSION_COMPAT        = "https://versioncompatibility.roblox.com"
+ROBLOX_IP_GW1                = "PING:128.116.0.1"
+ROBLOX_IP_GW2                = "PING:128.116.0.2"
+ROBLOX_IP_GAME1              = "PING:128.116.64.1"
+ROBLOX_IP_GAME2              = "PING:128.116.128.1"
