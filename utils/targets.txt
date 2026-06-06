@@ -33,6 +33,7 @@ CloudflareDNS1001     = "PING:1.0.0.1"
 GoogleDNS8888         = "PING:8.8.8.8"
 GoogleDNS8844         = "PING:8.8.4.4"
 Quad9DNS9999          = "PING:9.9.9.9"
+<<<<<<< HEAD
 ROBLOX                       = "https://roblox.com"
 ROBLOX_WWW                   = "https://www.roblox.com"
 ROBLOX_AUTH                  = "https://auth.roblox.com"
@@ -93,3 +94,5 @@ ROBLOX_IP_GW1                = "PING:128.116.0.1"
 ROBLOX_IP_GW2                = "PING:128.116.0.2"
 ROBLOX_IP_GAME1              = "PING:128.116.64.1"
 ROBLOX_IP_GAME2              = "PING:128.116.128.1"
+=======
+>>>>>>> 7e7aab369bb9ea10eb192917703d3babdfd95e21

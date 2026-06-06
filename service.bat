@@ -1038,4 +1038,8 @@ if "%extracted%"=="0" (
     pause
     exit
 )
+<<<<<<< HEAD
 exit /b 0
+=======
+exit /b 0
+>>>>>>> 7e7aab369bb9ea10eb192917703d3babdfd95e21
